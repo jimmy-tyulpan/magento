@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <dk_crud module="dk_crud" translate="title">
+            <title>CRUD</title>
+            <sort_order>100</sort_order>
+            <action>adminhtml/articles/index</action>
+        </dk_crud>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <dk_crud translate="title" module="dk_crud">
+                        <title>Crud Controller</title>
+                        <sort_order>100</sort_order>
+                    </dk_crud>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

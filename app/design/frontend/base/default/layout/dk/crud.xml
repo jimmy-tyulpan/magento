@@ -3,6 +3,9 @@
     <dk_crud_article_index_index>
         <reference name="content">
             <block type="page/html_head" name="head" as="head">
+                <!--<action method="addJs">-->
+                    <!--<script>js/article.js</script>-->
+                <!--</action>-->
                 <action method="addCss">
                     <stylesheet>css/article.css</stylesheet>
                 </action>

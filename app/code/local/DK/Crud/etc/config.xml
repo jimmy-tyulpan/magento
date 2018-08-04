@@ -43,7 +43,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <Dk_Crud before="Mage_Adminhtml">DK_Crud_Adminhtml</Dk_Crud>
+                        <dk_crud before="Mage_Adminhtml">DK_Crud_Adminhtml</dk_crud>
                     </modules>
                 </args>
             </adminhtml>
@@ -76,13 +76,4 @@
             </DK_Crud_Article>
         </routers>
     </frontend>
-    <adminhtml>
-        <menu>
-            <dk_crud>
-                <title>CRUD</title>
-                <sort_order>100</sort_order>
-                <action>adminhtml/articles</action>
-            </dk_crud>
-        </menu>
-    </adminhtml>
 </config>
