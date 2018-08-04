@@ -1,0 +1,8 @@
+a:5:{i:0;s:51:"Controller file was loaded but class does not exist";i:1;s:993:"#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(340): Mage::exception('Mage_Core', 'Controller file...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(308): Mage_Core_Controller_Varien_Router_Standard->_includeControllerClass('C:\\OSPanel\\doma...', 'DK_Crud_IndexCo...')
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(196): Mage_Core_Controller_Varien_Router_Standard->_validateControllerClassName('DK_Crud', 'index')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#6 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:19:"/index.php/articles";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}

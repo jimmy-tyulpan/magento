@@ -1,0 +1,31 @@
+.m-wrapper:not(:first-child) {
+    margin-top: 50px;
+}
+.read-more {
+    text-align: right;
+    color: #8B0000;
+    cursor: pointer;
+}
+.article h2 {
+    font-weight: 500;
+}
+.description:after:hover {
+    color:#f37c4e;
+}
+.article .description {
+    color: #000000;
+}
+.article-wrapper {
+    height: 243px;
+    overflow: hidden;
+    background-color: #00FFFF;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.read-more {
+    margin-top: 6px;
+}

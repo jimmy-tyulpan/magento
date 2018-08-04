@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <adminhtml_articles_index>
+        <reference name="index">
+            <block type="dk_crud/adminhtml_articles" name="dk_crud_articles" />
+        </reference>
+    </adminhtml_articles_index>
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="1.0.0">
+    <dk_crud_article_index_index>
+        <reference name="content">
+            <block type="page/html_head" name="head" as="head">
+                <action method="addCss">
+                    <stylesheet>css/article.css</stylesheet>
+                </action>
+            </block>
+            <block type="dk_crud/articles" name="dk_crud.articles" as="crud" template="crud/articles.phtml"/>
+        </reference>
+    </dk_crud_article_index_index>
+</layout>

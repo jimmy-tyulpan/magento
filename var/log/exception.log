@@ -1,0 +1,379 @@
+2018-08-02T19:27:52+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:28:06+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:28:19+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Article...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:29:50+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:29:50+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:30:18+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:30:18+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:30:44+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:31:06+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: DK_Crud_Block_Articles_Articles in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:34:00+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:34:25+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('crud/articles', 'crud.articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('crud/articles', 'crud.articles')
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#10 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#14 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#15 {main}
+2018-08-02T19:45:04+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:14+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:16+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:17+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:18+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:18+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:19+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:19+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:19+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:20+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:46:37+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: Cxv_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Cxv_Articles', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:49:39+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Block_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Block_A...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-02T19:49:48+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: DK_Crud_Articles_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('DK_Crud_Article...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(7): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
+2018-08-03T19:46:30+00:00 ERR (3): 
+Mage_Core_Exception: {{{Invalid block type: Mage_Crud_Block_Articles}}{{Invalid block type: %s}}{{Invalid block type: %s}}{{Mage_Core}}} in C:\OSPanel\domains\test\app\Mage.php:595
+Stack trace:
+#0 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('{{{Invalid bloc...')
+#1 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Crud_Block...', Array)
+#2 C:\OSPanel\domains\test\app\code\local\DK\Crud\controllers\IndexController.php(6): Mage_Core_Model_Layout->createBlock('crud/articles')
+#3 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Action.php(418): DK_Crud_IndexController->indexAction()
+#4 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#5 C:\OSPanel\domains\test\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 C:\OSPanel\domains\test\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 C:\OSPanel\domains\test\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#8 C:\OSPanel\domains\test\index.php(83): Mage::run('', 'store')
+#9 {main}
